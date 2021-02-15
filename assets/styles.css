@@ -61,6 +61,20 @@ header {
     animation: slide-up 1.5s ease-in-out;
 }
 
+@media only screen and (max-width: 800px) {
+    .intro {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: white;
+        animation: fade 2.5s ease-in-out;
+        animation: slide-up 1.5s ease-in-out;
+    }
+}
+
 .hidden {
     display: none;
     animation-delay: 2s;
@@ -88,13 +102,13 @@ header {
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
-    line-height: 18px;
+    line-height: 32px;
     letter-spacing: -0.02em;
     text-align: left;
     color: rgba(255, 255, 255, 0.742);
     padding-top: 120px;
     animation: fade 2s ease-in-out;
-}
+} 
 
 .project-thumbnail {
     object-fit: cover;
@@ -113,7 +127,19 @@ header {
     padding-right: 15%;
     padding-left: 15%;
     margin-right: auto;
+    margin-left: auto;
 }
+
+@media only screen and (max-width: 800px) {
+    .container-fluid {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+}
+
     
 .project-name {
     font-size: 20px;
