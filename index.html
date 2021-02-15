@@ -32,8 +32,8 @@
     <!-- HEADER WITH LINKS-->
     <header>
         <div class="container-fluid">
-            <a class="header-link active" href="#">Work</a>
-            <a class="header-link" href="#">Contact</a>
+            <a class="header-link" id="work-link">Work</a>
+            <a class="header-link" id="contact-link">Contact</a>
         </div>
     </header>
 
@@ -45,6 +45,44 @@
         <h1 class="intro hidden" id="line_one">
             front end developer +
         </h1>
+
+        <!-- PROFILE SECTION -->
+        <div class="hidden" id="profile-section">
+            <div class="row">
+
+                <!-- AVATAR -->
+                <div class="col-sm-3" id="avatar">
+                </div>
+
+                <!-- PERSONAL INFORMATION -->
+                <div class="col-sm-3">
+                    <p class="profile-header" id="header-name">Name</p>
+                    <p class="profile-text" id="name"></p>
+        
+                    <p class="profile-header" id="header-location">Location</p>
+                    <p class="profile-text" id="location"></p>
+
+                    <p class="profile-header" id="header-bio">Bio</p>
+                    <p class="profile-text" id="bio"></p>
+                </div>
+
+                <!-- CONTACT DETAILS -->
+                <div class="col-sm-6">
+
+                <!-- PHONE -->
+                <p class="profile-header" id="header-phone">Phone</p>
+                <p class="profile-text" id="profile-phone">+1 206 501-0230</p>
+
+                <!-- EMAIL -->
+                <p class="profile-header" id="header-email">Email</p>
+                <p class="profile-link" id="profile-email"></p>
+        
+                <!-- LINK -->
+                <p class="profile-header" id="header-link">Github</p>
+                <p class="profile-link" id="profile-link"></p>
+            </div>
+            </div>
+        </div>
 
         <!-- INTRO STRING 2-->
         <h1 class="intro hidden" id="line_two">
@@ -167,12 +205,12 @@
             </div>
 
             <!-- PROJECT 5-->
-            <div class="row" id="project-row5" style="padding-top: 20px;"></div>
+            <div class="row hidden" id="project-row5" style="padding-top: 20px;"></div>
 
             <div class="col-lg-12" id="project5">
 
                 <!-- THUMBNAIL-->
-                <img class="project-thumbnail" src="./assets/Images/portfolio_animated.png">
+                <img class="project-thumbnail" src="./assets/Images/Portfolio_animated.png">
 
                 <!-- PROJECT NAME-->
                 <p class="project-name">Portfolio Project</p>
@@ -190,8 +228,8 @@
             </div>
         </div>
 
-        <!-- PROJECT 5-->
-        <div class="row" id="project-row6" style="padding-top: 20px;"></div>
+        <!-- PROJECT 6-->
+        <div class="row hidden" id="project-row6" style="padding-top: 20px;"></div>
 
         <div class="col-lg-12" id="project5">
 
