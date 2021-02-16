@@ -51,7 +51,7 @@ header {
 
 .header-link:active{
     color: white;
-    cursor: pointer;
+    font-weight: 500;
 }
 
 .intro {
@@ -61,10 +61,23 @@ header {
     line-height: 94px;
     letter-spacing: -0.02em;
     text-align: left;
-    color: white;
     animation: fade 2.5s ease-in-out;
     animation: slide-up 1.5s ease-in-out;
-}
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+  }
+  
+  @-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
 
 @media only screen and (max-width: 800px) {
     .intro {
@@ -74,9 +87,6 @@ header {
         line-height: 60px;
         letter-spacing: -0.02em;
         text-align: left;
-        color: white;
-        animation: fade 2.5s ease-in-out;
-        animation: slide-up 1.5s ease-in-out;
     }
 }
 
@@ -184,7 +194,9 @@ header {
     border-radius: 50%;
     width: 196px;
     height: 196px;
-    animation: fade 2.5s ease-in-out;
+    animation: fade 2s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
+    filter: grayscale(100%);
 }
 
 
@@ -196,7 +208,8 @@ header {
     text-align: left;
     color: rgba(255, 255, 255, 0.742);
     padding-top: 20px;
-    animation: fade 2.5s ease-in-out;
+    animation: fade 2s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
 }
 
 .profile-text {
@@ -206,7 +219,8 @@ header {
     letter-spacing: -0.02em;
     text-align: left;
     color: rgba(255, 255, 255, 0.742);
-    animation: fade 2.5s ease-in-out;
+    animation: fade 2s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
 }
 
 .profile-link {
@@ -218,7 +232,8 @@ header {
     text-align: left;
     color: #4147ee;
     transition: transform .2s;
-    animation: fade 2.5s ease-in-out;
+    animation: fade 2s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
 }
 
 .profile-link:hover {
