@@ -42,7 +42,6 @@ function getApi() {
         profileLink.href = data.html_url;
         $("#profile-link").append(profileLink);
 
-
         // create email link
         var emailLink = document.createElement('a');
         emailLink.textContent = "kaydavis21@googlemail.com";
@@ -53,10 +52,11 @@ function getApi() {
 }
 getApi();
 
-// hide work divs
-function showProfile() {
-  $("#profile-section").removeClass("hidden");
-  $("#line_one").text("Get in touch");
+
+function showResume(){
+  $("#resume-section").removeClass("hidden");
+  $("#line_one").text("Resume");
+  $("#profile-section").addClass("hidden");
   $("#projects-title").hide();
   $("#project-row1").hide();
   $("#project-row2").hide();
@@ -64,9 +64,27 @@ function showProfile() {
   $("#project-row4").hide();
   $("#project-row5").hide();
   $("#project-row6").hide();
-  $("#contact-link").addClass(":selected");
+  $("#resume-link").css({ "color": "#ffffff", "font-weight": "500"});
+  $("#work-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
+  $("#contact-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
+  window.scrollTo(0, 0);
+}
+
+// hide work divs
+function showProfile() {
+  $("#profile-section").removeClass("hidden");
+  $("#line_one").text("Get in touch");
+  $("#resume-section").addClass("hidden");
+  $("#projects-title").hide();
+  $("#project-row1").hide();
+  $("#project-row2").hide();
+  $("#project-row3").hide();
+  $("#project-row4").hide();
+  $("#project-row5").hide();
+  $("#project-row6").hide();
   $("#contact-link").css({ "color": "#ffffff", "font-weight": "500"});
   $("#work-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
+  $("#resume-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
   window.scrollTo(0, 0);
 }
 
@@ -74,6 +92,7 @@ function showProfile() {
 function showWork() {
   $("#profile-section").addClass("hidden");
   $("#line_one").text("front end developer + UI/UX designer based in seattle currently focused on design systems @Microsoft");
+  $("#resume-section").addClass("hidden");
   $("#projects-title").show();
   $("#project-row1").show();
   $("#project-row2").show();
@@ -81,9 +100,9 @@ function showWork() {
   $("#project-row4").show();
   $("#project-row5").show();
   $("#project-row6").show();
-  $("#contact-link").addClass(":selected");
   $("#work-link").css({ "color": "#ffffff", "font-weight": "500"});
   $("#contact-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
+  $("#resume-link").css({ "color": "rgba(255, 255, 255, 0.742)", "font-weight": "300"});
   window.scrollTo(0, 0);
 }
 
@@ -95,6 +114,11 @@ $("#contact-link").on('click', function () {
 
 // event listener for displaying project content
 $("#work-link").on('click', function () {
-  showWork();
+  showWork(); 
+ });
+ 
+ // event listener for displaying resume content
+$("#resume-link").on('click', function () {
+  showResume();
  });
  
