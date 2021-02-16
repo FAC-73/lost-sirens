@@ -31,6 +31,7 @@ function getApi() {
         $("#name").text(data.name);
         $("#location").text(data.location);
         $("#bio").text(data.bio);
+        $("#line_one").text(data.bio);
 
         // Create an avatar using api for avatar URL
         var img = $("<img>").addClass("avatar").attr("src", "" + data.avatar_url + ".png");
@@ -47,6 +48,8 @@ function getApi() {
         emailLink.textContent = "kaydavis21@googlemail.com";
         emailLink.href = "mailto:kaydavis21@googlemail.com";
         $("#profile-email").append(emailLink);
+
+        var bio = data.bio;
 
     });
 }
@@ -70,7 +73,7 @@ function showResume(){
   window.scrollTo(0, 0);
 }
 
-// hide work divs
+// hide project sections
 function showProfile() {
   $("#profile-section").removeClass("hidden");
   $("#line_one").text("Get in touch");
@@ -88,10 +91,10 @@ function showProfile() {
   window.scrollTo(0, 0);
 }
 
-// hide show work divs
+// show project sections
 function showWork() {
   $("#profile-section").addClass("hidden");
-  $("#line_one").text("front end developer + UI/UX designer based in seattle currently focused on design systems @Microsoft");
+  $("#line_one").text("front-end developer + UI/UX designer based in seattle. currently working on design systems @Microsoft");
   $("#resume-section").addClass("hidden");
   $("#projects-title").show();
   $("#project-row1").show();

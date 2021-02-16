@@ -91,10 +91,10 @@ header {
 /* INTRO AND HEADER TEXT*/
 
 .intro {
-    font-size: 72px;
+    font-size: 80px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 94px;
+    font-weight: 400;
+    line-height: 96px;
     letter-spacing: -0.02em;
     text-align: left;
     color: #f35626;
@@ -121,7 +121,7 @@ header {
     .intro {
         font-size: 48px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 60px;
         letter-spacing: -0.02em;
         text-align: left;
@@ -162,8 +162,8 @@ header {
     text-align: left;
     color: rgba(255, 255, 255, 0.267);
     padding-top: 120px;
-    animation: fade 2s ease-in-out;
-    animation: slide-up 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
 } 
 
 .project-thumbnail {
@@ -174,8 +174,8 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     transition: transform .2s;
-    animation: fade 2s ease-in-out;
-    animation: slide-up 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
 }
     
 .project-name {
@@ -199,6 +199,8 @@ header {
     padding-bottom:8px;
     margin-bottom: 0px;
     transition: transform .2s;
+    animation: fade 1.5s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
 }
 
 .project-link:hover {
@@ -215,12 +217,11 @@ header {
 
 .avatar {
     border-radius: 50%;
-    width: 100%;
+    width: 90%;
     height: auto;
-    animation: fade 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
     animation: slide-up 1.5s ease-in-out;
     filter: grayscale(100%);
-    margin-right: 20px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -246,7 +247,7 @@ header {
     padding-top: 20px;
     margin: 0px;
     padding-bottom: 4px;
-    animation: fade 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
     animation: slide-up 1.5s ease-in-out;
 }
 
@@ -260,7 +261,7 @@ header {
     margin: 0px;
     padding-bottom: 8px;
     color: rgba(255, 255, 255, 0.742);
-    animation: fade 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
     animation: slide-up 1.5s ease-in-out;
 }
 
@@ -276,7 +277,7 @@ header {
     color: #4147ee;
     padding-bottom: 8px;
     transition: transform .2s;
-    animation: fade 2s ease-in-out;
+    animation: fade 1.5s ease-in-out;
     animation: slide-up 1.5s ease-in-out;
 }
 
@@ -300,14 +301,15 @@ header {
     text-align: left;
     color: rgba(255, 255, 255, 0.742);
     padding-top: 20px;
-    animation: fade 2s ease-in-out;
-    animation: slide-up 2s ease-in-out;
+    margin-right: 20px;
+    animation: fade 1.5s ease-in-out;
+    animation: slide-up 1.5s ease-in-out;
 } 
 
 ul {
     list-style: none;
-    animation: fade 2s ease-in-out;
-    animation: slide-up 2s ease-in-out; 
+    animation: fade 1.5s ease-in-out;
+    animation: slide-up 1.5s ease-in-out; 
     padding-top: 20px;
     padding-left: 0px;
     margin: 0px;
@@ -321,5 +323,5 @@ li {
     line-height: 32px;
     text-align: left;
     color: rgba(255, 255, 255, 0.742);
-    border-bottom: rgba(255, 255, 255, 0.137) solid 1px;
+    border-bottom: rgba(255, 255, 255, 0.034) solid 1px;
 }
