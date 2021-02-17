@@ -24,8 +24,10 @@
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
 
 </head>
@@ -43,7 +45,7 @@
 
 
     <!-- MAIN CONTAINER WITH PORTFOLIO CONTENT-->
-    <div class="container-fluid" id="projects" style="padding-top: 80px;">
+    <div class="container-fluid" id="projects" style="padding-top: 80px;" role="main">
 
         <!-- INTRO STRING 1-->
         <h1 class="intro hidden" id="line_one">
@@ -55,82 +57,172 @@
         <div class="hidden" id="resume-section">
             <div class="row">
 
-                <!-- EXPERIENCE -->
+                <!-- ABOUT SECTION -->
                 <div class="col-sm-9">
-                    <h2 class="projects-title" id="experience-title" style="padding-top: 20px;">Experience</h2>
-                    <p class="resume-text" id="experience">Inconspicuous motes of rock and gas birth consciousness Jean-François Champollion white dwarf citizens of distant epochs. Two ghostly white figures in coveralls and helmets are softly dancing great turbulent clouds the carbon in our apple pies emerged into consciousness colonies emerged into consciousness. Invent the universe dream of the mind's eye extraordinary claims require extraordinary evidence rings of Uranus made in the interiors of collapsing stars corpus callosum and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
+                    <h2 class="profile-header" id="about-title" style="padding-top: 20px;">About me</h2>
+                    <p class="resume-text" id="about">
+                        I am a seasoned UX/UI designer with over 12 years experience designing websites and applications
+                        for some of the worlds most loved brands. Most recently I spent the last year learning front-end
+                        development through the University of Washington’s full-stack bootcamp program.
+                        <br><br>My passion is to create simple, delightful experiences that are universally accessible
+                        to all, that scale across platforms, feeling natural on any device.
+                    </p>
+
+                    <!-- EXPERIENCE DISPLAYED IN A LIST -->
+                    <h2 class="profile-header" id="experience-title" style="padding-top: 40px;">Experience</h2>
+
+                    <ul id="Experience">
+                        <li class="mainCanvas">Principal Design Manager - Design Systems / Microsoft Teams
+                            <br>
+                            2020 - Current
+                        </li>
+                        <li class="mainCanvas">Senior Design Manager - Design Systems / Microsoft Teams
+                            <br>
+                            2019 - 2020
+                        </li>
+                        <li class="mainCanvas">Senior Interaction Designer - Skype [Microsoft]
+                            <br>
+                            2017 - 2019
+                        </li>
+                        <li class="mainCanvas">Product Designer - Microsoft Windows
+                            <br>
+                            2017 - 2017
+                        </li>
+                        <li class="mainCanvas">Interaction Designer - Skype [Microsoft]
+                            <br>
+                            2015 - 2015
+                        </li>
+                        <li class="mainCanvas">Experience Design Manager - LEGO.com & Consumer Experiences
+                            <br>
+                            2013 - 2015
+                        </li>
+                        <li class="mainCanvas">Creative Lead - LEGO.com & Consumer Experiences
+                            <br>
+                            2012 - 2013
+                        </li>
+                        <li class="mainCanvas">Senior UX Designer - LEGO Consumer Insights & Experience Innovation
+                            <br>
+                            2011 - 2012
+                        </li>
+                        <li class="mainCanvas">Experience Designer - LEGO Consumer Insights & Experience Innovation
+                            <br>
+                            2009 - 2011
+                        </li>
+                    </ul>
+
+                    <!-- EDUCATION DISPLAYED IN A LIST -->
+                    <h2 class="profile-header" id="education-title" style="padding-top: 60px;">Education</h2>
+
+                    <ul id="Education">
+                        <li class="mainCanvas">University of Washington
+                            <br>
+                            Full-Stack Developer Certification
+                            <br>
+                            2020 - 2021
+                        </li>
+                        <li class="mainCanvas">Ravensbourne College of Design and Communication
+                            <br>
+                            BA (Hons) Graphic Design
+                            <br>
+                            2005 - 2009
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="col-sm-3">
+                <!-- RIGHT COLUMN INCLUDES LISTS OF SKILLS AND LANGUAGES-->
+                <div class="col-sm-3" role="complementary">
 
-                    <h2 class="projects-title" id="experience-title" style="padding-top: 20px;">Download</h2>
-                    <a href="https://fac-73.github.io/password-generator/" target="_blank">
-                        <p class="project-link" style="text-align: left; padding-top: 12px; padding-bottom: 12px;"><i class="fas fa-file-pdf" style="padding-right:8px;"></i>Kay Davis Resume.pdf</p>
+                    <!-- DOWNLOAD LINK TO RESUME -->
+                    <h3 class="profile-header" id="experience-title" style="padding-top: 20px;">Download</h3>
+                    <a href="./assets/Images/kay-davis-cv.pdf" target="_blank">
+                        <p class="project-link" style="text-align: left; padding-top: 12px; padding-bottom: 12px;"><i
+                                class="fas fa-file-pdf" style="padding-right:8px;"></i>Kay Davis full resume.pdf</p>
                     </a>
 
-                    <h2 class="projects-title" id="experience-title" style="padding-top: 20px;">Skills</h2>
-                    <ul id="Languages">
+                    <!-- LIST OF SKILLS -->
+                    <h3 class="profile-header" id="experience-title" style="padding-top: 40px;">Skills</h3>
+                    <ul id="Skills">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
                         <li>Jquery</li>
                         <li>NodeJS</li>
-                        <li>React</li>
                     </ul>
 
-                    <h2 class="projects-title" id="experience-title" style="padding-top: 20px;">Design x prototyping</h2>
-                    <ul id="Design + prototyping">
-                        <li>Design systems</li>
-                        <li>UI/UX</li>
+                    <!-- LIST OF DESIGN KNOWLEDGE -->
+                    <h3 class="profile-header" id="experience-title" style="padding-top: 40px;">Design</h3>
+                    <ul id="Design">
+                        <li>UX & UI</li>
+                        <li>Information Architecture</li>
+                        <li>Systems / Component design</li>
+                        <li>Typography</li>
+                        <li>Accessible design</li>
+                    </ul>
+
+                    <!-- LIST OF DESIGN TOOLS -->
+                    <h3 class="profile-header" id="experience-title" style="padding-top: 40px;">Tools</h3>
+                    <ul id="Design">
                         <li>Figma</li>
                         <li>Sketch</li>
                         <li>Adobe XD</li>
-                        <li>Axure</li>
-                        <li>Hype</li>
+                        <li>Axure Pro</li>
+                        <li>Tumult Hype</li>
+                        <li>Final Cut Pro</li>
+                        <li>After Effects</li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <!-- PROFILE SECTION -->
-        <div class="hidden" id="profile-section" style="padding-top: 20px;">
+        <div class="hidden" id="profile-section" style="padding-top: 20px;" role="main">
             <div class="row">
 
                 <!-- AVATAR -->
-                <div class="col-sm-3" id="avatar">
+                <div class="col-sm-3" id="avatar" role="img" aria-label="Profile photo of Kay Davis">
                 </div>
 
                 <!-- PERSONAL INFORMATION -->
-                <div class="col-sm-3">
-                    <p class="profile-header" id="header-name"><i class="fas fa-user" style="padding-right: 8px;"></i>Name</p>
+                <div class="col-sm-3" role="region">
+                    <p class="profile-header" id="header-name"><i class="fas fa-user"
+                            style="padding-right: 8px;"></i>Name</p>
                     <p class="profile-text" id="name"></p>
-        
-                    <p class="profile-header" id="header-location"><i class="fas fa-map-marker-alt" style="padding-right: 8px;"></i>Location</p>
+
+                    <!-- LOCATION -->
+                    <p class="profile-header" id="header-location"><i class="fas fa-map-marker-alt"
+                            style="padding-right: 8px;"></i>Location</p>
                     <p class="profile-text" id="location"></p>
 
-                    <p class="profile-header" id="header-bio"><i class="fas fa-info-circle" style="padding-right: 8px;"></i>Bio</p>
+                    <!-- BIO -->
+                    <p class="profile-header" id="header-bio"><i class="fas fa-info-circle"
+                            style="padding-right: 8px;"></i>Bio</p>
                     <p class="profile-text" id="bio"></p>
                 </div>
 
                 <!-- CONTACT DETAILS -->
-                <div class="col-sm-6">
+                <div class="col-sm-6" role="region">
 
-                <!-- PHONE -->
-                <p class="profile-header" id="header-phone"><i class="fas fa-mobile-alt"  style="padding-right: 8px;"></i>Phone</p>
-                <p class="profile-text" id="profile-phone">+1 206 501-0230</p>
+                    <!-- PHONE -->
+                    <p class="profile-header" id="header-phone"><i class="fas fa-mobile-alt"
+                            style="padding-right: 8px;"></i>Phone</p>
+                    <p class="profile-text" id="profile-phone">+1 206 501-0230</p>
 
-                <!-- EMAIL -->
-                <p class="profile-header" id="header-email"><i class="fas fa-envelope" style="padding-right: 8px;"></i>Email</p>
-                <p class="profile-link" id="profile-email"></p>
-        
-                <!-- LINK -->
-                <p class="profile-header" id="header-link"><i class="fab fa-github" style="padding-right: 8px;"></i>Github</p>
-                <p class="profile-link" id="profile-link"></p>
+                    <!-- EMAIL -->
+                    <p class="profile-header" id="header-email"><i class="fas fa-envelope"
+                            style="padding-right: 8px;"></i>Email</p>
+                    <p class="profile-link" id="profile-email"></p>
 
-                <!-- LINKEDIN -->
-                <p class="profile-header" id="header-linkedin"><i class="fab fa-linkedin" style="padding-right: 8px;"></i>linkedin</p>
-                <p class="profile-link" id="linkedin"><a href="https://www.linkedin.com/in/kayleighdavis/" target="_blank">https://www.linkedin.com/in/kayleighdavis/</a></p>
-            </div>
+                    <!-- LINK -->
+                    <p class="profile-header" id="header-link"><i class="fab fa-github"
+                            style="padding-right: 8px;"></i>Github</p>
+                    <p class="profile-link" id="profile-link"></p>
+
+                    <!-- LINKEDIN -->
+                    <p class="profile-header" id="header-linkedin"><i class="fab fa-linkedin"
+                            style="padding-right: 8px;"></i>linkedin</p>
+                    <p class="profile-link" id="linkedin"><a href="https://www.linkedin.com/in/kayleighdavis/"
+                            target="_blank">https://www.linkedin.com/in/kayleighdavis/</a></p>
+                </div>
             </div>
         </div>
 
@@ -218,50 +310,53 @@
 
                     <!-- PROJECT LINKS-->
                     <a href="https://fac-73.github.io/coding-quiz/" target="_blank">
-                      <p class="project-link"><i class="fas fa-external-link-alt"
+                        <p class="project-link"><i class="fas fa-external-link-alt"
                                 style="padding-right: 8px;"></i>Launch application</p>
                     </a>
                     <a href="https://github.com/FAC-73/coding-quiz" target="_blank">
-                        <p class="project-link"><i class="fab fa-github" style="padding-right: 8px;"></i>View on github</p>
+                        <p class="project-link"><i class="fab fa-github" style="padding-right: 8px;"></i>View on github
+                        </p>
                     </a>
                 </div>
             </div>
 
             <!-- PROJECT 5-->
             <div class="row hidden" id="project-row5" style="padding-top: 20px;">
-            
+
                 <div class="col-lg-12" id="project5">
-            
+
                     <!-- THUMBNAIL-->
                     <img class="project-thumbnail" src="./assets/Images/Portfolio_animated.png">
-            
+
                     <!-- PROJECT NAME-->
                     <p class="project-name">Portfolio Project</p>
-            
+
                     <!-- PROJECT LINKS-->
                     <a href="https://fac-73.github.io/kay-davis-portfolio/index.html" target="_blank">
-                        <p class="project-link"><i class="fas fa-external-link-alt" style="padding-right: 8px;"></i>Launch
+                        <p class="project-link"><i class="fas fa-external-link-alt"
+                                style="padding-right: 8px;"></i>Launch
                             application</p>
                     </a>
                     <a href="https://github.com/FAC-73/kay-davis-portfolio" target="_blank">
-                        <p class="project-link"><i class="fab fa-github" style="padding-right: 8px;"></i>View on github</p>
+                        <p class="project-link"><i class="fab fa-github" style="padding-right: 8px;"></i>View on github
+                        </p>
                     </a>
                 </div>
-            
+
             </div>
-            </div>
+        </div>
 
         <!-- PROJECT 6-->
         <div class="row hidden" id="project-row6" style="padding-top: 20px;">
-        
+
             <div class="col-lg-12" id="project6">
-        
+
                 <!-- THUMBNAIL-->
                 <img class="project-thumbnail" src="./assets/Images/PasswordGenerator_animated.png">
-        
+
                 <!-- PROJECT NAME-->
                 <p class="project-name">Password Generator</p>
-        
+
                 <!-- PROJECT LINKS-->
                 <a href="https://fac-73.github.io/password-generator/" target="_blank">
                     <p class="project-link"><i class="fas fa-external-link-alt" style="padding-right: 8px;"></i>Launch
@@ -272,11 +367,6 @@
                 </a>
             </div>
         </div>
-        </div>
-
-    </div>
-
-
     </div>
 
     <!-- LINK TO JQUERY CDN-->
@@ -287,5 +377,4 @@
     <script type="text/javascript" src="./assets/script.js"></script>
 
 </body>
-
 </html>

@@ -49,8 +49,6 @@ function getApi() {
         emailLink.href = "mailto:kaydavis21@googlemail.com";
         $("#profile-email").append(emailLink);
 
-        var bio = data.bio;
-
     });
 }
 getApi();
