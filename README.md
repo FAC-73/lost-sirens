@@ -120,9 +120,9 @@ A .text jquery method replaces the text for the headline to the correct correspo
 <br>
 Javascript and Jquery dynamically append the profile information and image into html elements on page load.
 JS and Jquery is also used for hiding and showing sections of the page when switching between the homepage, profile page and the resume.
-
-- For improved accessibility additional descriptions for project images has been included, as well as including aria roles for CSS divs using bootstrap class the provide no semantic HTML information for screenreaders. 
 <br>
+- For improved accessibility additional descriptions for project images has been included, as well as including aria roles for CSS divs using bootstrap class the provide no semantic HTML information for screenreaders. 
+
 
 2. styles.css - Contains layout, styling, animations and bootstrap CSS CDN is used to leveraging the responsive grid css.
 
