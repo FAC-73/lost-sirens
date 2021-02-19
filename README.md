@@ -35,7 +35,7 @@ Updated portfolio with examples from last two homework assignments and group pro
 ![Kay Davis Portfolio](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/PorfolioExample2.png?raw=true "Kay Davis Portfolio")
 <br><br>
 
-**Built using Javascript, Jquery, HTML, CSS and leveraging a 3rd party API from OpenWeather. This Weather Dashboard application provides allows users to search for a city and pull the current weather and the 5-day-forecast using the OpenWeather API. Past city searches are stored using localStorage and displayed in a list. Clicking the city displays the information again**
+**Built using Javascript, Jquery, HTML, CSS and leveraging the GitHub REST API. This application showcases my projects during my coding bootcamp on Github as well as pulls my personal information into the site through the API. A resume is also included and can be downloaded as a PDF**
 
 
 ### Built With
