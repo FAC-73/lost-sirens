@@ -122,6 +122,7 @@ Javascript and Jquery dynamically append the profile information and image into 
 JS and Jquery is also used for hiding and showing sections of the page when switching between the homepage, profile page and the resume.
 
 - For improved accessibility additional descriptions for project images has been included, as well as including aria roles for CSS divs using bootstrap class the provide no semantic HTML information for screenreaders. 
+<br>
 
 2. styles.css - Contains layout, styling, animations and bootstrap CSS CDN is used to leveraging the responsive grid css.
 
