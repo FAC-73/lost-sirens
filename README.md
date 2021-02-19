@@ -92,6 +92,9 @@ A .text jquery method replaces the text for the headline to the correct correspo
 ![Resume ](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/Resume.png?raw=true "Resume")
 <br>
 
+![Resume ](https://github.com/FAC-73/lost-sirens/blob/main/assets/Images/Screenshots/downloadableResume.png?raw=true "Resume")
+<br>
+
 3. In the resume page a link to download the CV displays a PDF version of the CV. When clicked this is displayed in a new browser tab and can be downloaded from the window.
 <br>
 
